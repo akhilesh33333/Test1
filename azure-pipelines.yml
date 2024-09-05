@@ -20,7 +20,7 @@ steps:
 - task: NodeTool@0
   inputs:
     versionSource: 'spec'
-    versionSpec: 'v12.22\.9'
+    versionSpec: 'v12.22.9'
 - task: UiPathPack@4
   inputs:
     versionType: 'AutoVersion'
