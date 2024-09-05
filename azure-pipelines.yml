@@ -17,9 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: Npm@1
+- task: NodeTool@0
   inputs:
-    command: 'install'
+    versionSource: 'spec'
+    versionSpec: 'v12.22\.9'
 - task: UiPathPack@4
   inputs:
     versionType: 'AutoVersion'
