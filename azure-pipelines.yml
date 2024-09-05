@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  Akhilesh
 
 steps:
 - script: echo Hello, world!
